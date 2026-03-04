@@ -158,6 +158,11 @@ st.markdown("""
     font-size: 0.95rem !important;
 }
 
+.stTextInput > div > div > input::placeholder {
+    color: #718096 !important;
+    opacity: 1 !important;
+}
+
 .stTextInput > div > div > input:focus {
     border-color: rgba(0,212,255,0.6) !important;
     box-shadow: 0 0 0 2px rgba(0,212,255,0.1) !important;
